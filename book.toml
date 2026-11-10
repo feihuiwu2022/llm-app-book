@@ -1,0 +1,12 @@
+[book]
+title = "模型之外：LLM 应用架构掰开揉碎"
+authors = ["Hui"]
+language = "zh"
+src = "src"
+
+[preprocessor.mermaid]
+command = "mdbook-mermaid"
+
+[output.html]
+git-repository-url = "https://github.com/feihuiwu2022/llm-app-book"
+additional-js = ["mermaid.min.js", "mermaid-init.js"]
