@@ -4,7 +4,8 @@
 
 - 在线阅读：https://feihuiwu2022.github.io/llm-app-book/ （仓库公开并启用 Pages 后可用）
 - 全书规划：[BLUEPRINT.md](BLUEPRINT.md)
-- 进度：第 1 章已完成，其余章节撰写中
+- 进度：第 1、5、6 章已完成，其余章节撰写中
+- 配套代码：`code/` 目录，只用 Python 标准库
 
 ## 本地预览
 
