@@ -60,7 +60,7 @@ LLM 有四个天生的短板，全书所有技术都挂在这张表上：
 
 **每章都讲"什么时候不该用"。** 多数资料只告诉你一项技术能做什么。这本书的每一章都有一节专门讲它的代价和不适用的场景，最后两章给出完整的选型方法。
 
-**代码能直接跑。** 9 个配套脚本只用 Python 标准库，不需要密钥、不需要联网、不需要装任何依赖。
+**代码能直接跑。** 10 个配套脚本只用 Python 标准库，不需要密钥、不需要联网、不需要装任何依赖。
 
 ## 三分钟跑起来
 
@@ -97,6 +97,7 @@ python code/ch21_agent.py
 | `ch03_shortcomings.py` | 四个短板的探针与自动判分 | 3 |
 | `ch05_chunk.py` | 切块、向量库大小复算、余弦相似度 | 5 |
 | `ch06_retrieve.py` | 向量召回、BM25、RRF 融合、拼提示词 | 6 |
+| `ch11_lora.py` | 纯 Python 从零训练一个 LoRA | 11 |
 | `ch13_function_call.py` | 函数调用的四步往返 | 13 |
 | `ch19_react.py` | 思考、行动、观察的 ReAct 循环 | 19 |
 | `ch21_agent.py` | 最小 Agent 主循环 | 21 |
@@ -135,7 +136,7 @@ python code/ch21_agent.py
 - [10 记忆：短期、长期与遗忘](src/ch10-memory.md)
 
 ### 篇三 改模型
-- [11 微调、LoRA、蒸馏各改了什么](src/ch11-finetune-lora-distill.md)
+- [11 微调、LoRA、蒸馏各改了什么](src/ch11-finetune-lora-distill.md) ▶
 - [12 RAG 还是微调：选型判据与成本复算](src/ch12-rag-or-finetune.md)
 
 ### 篇四 行动
